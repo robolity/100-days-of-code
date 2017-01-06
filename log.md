@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log
 
+### Day 3: January 6, 2017
+
+**Today's Progress**: Added save and load buttons so that the robot parameters listed in the GUI can be saved and loaded to quickly change the robot in the simulator. I also updated the UML file for the project to correctly reflect the current class structure of the code.
+
+**Thoughts:** Making good progress on the project, the save and load buttons were surprisingly easy to setup by copying the code for the map save and load. I updated the UML so that I can have a clearer picture of what class should connect to what, so I don't create a birds nest by accident. Next step is to add all the robot parameters to the GUI, as I'd like to get the GUI finished before proceeding onto integrating the robot's sensors properly.
+
+
+**Link to work:** [Pass the Butter](https://github.com/robolity/pass-the-butter/commit/c84dbfd14b3ab5894e3692efac1aedc178941d96)
 
 ### Day 2: January 5, 2017
 
