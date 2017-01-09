@@ -1,5 +1,14 @@
 # 100 Days Of Code - Log
 
+### Day 5: January 9, 2017
+
+**Today's Progress**: Added proximity sensor parameters to the robot config parameters and save/load function. Modified the way parameters are added by sorting them into dynamically created tables. The tables and parameters they contain are named with number ID so that the parameters and GUI can be more easily changed in the future.
+
+**Thoughts:** Missed a day of coding yesterday due to busy weekend. Hopefully back on track now and I'll keep getting this GUI worked out. I need to be careful I don't get stuck adding to the GUI for too long. I think I might move onto updating the comms to the robot and reading the sensor values later this week.
+
+**Link to work:** [Pass the Butter](https://github.com/robolity/pass-the-butter/commit/e463cc7a42cd69c308ff95d68468f8c31ac214cd)
+
+
 ### Day 4: January 7, 2017
 
 **Today's Progress**: Added the robot's physical dimensions to the robot config parameters and save/load function. Modified the parameter add function so that it's more generic for adding and accessing the parameters.
