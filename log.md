@@ -1,5 +1,14 @@
 # 100 Days Of Code - Log
 
+### Day 6: January 10, 2017
+
+**Today's Progress**: Added proximity sensor positions to the robot config parameters and GUI. Added the current control state to the GUI.
+
+**Thoughts:** I think it will be more useful to have the robot parameters/config on a seperate pop-up for when needed as it doesn't need to be accessed as much. Instead, I'd like to put the controller PID parameters on the main GUI screen so that they can be easily changed and tested. On reflection, this was what I originally planned for the GUI changes, but got side-tracked on the robot parameters.
+
+**Link to work:** [Pass the Butter](https://github.com/robolity/pass-the-butter/commit/0c7a58d5dae1c6099fb2019c90bc930be490c748)
+
+
 ### Day 5: January 9, 2017
 
 **Today's Progress**: Added proximity sensor parameters to the robot config parameters and save/load function. Modified the way parameters are added by sorting them into dynamically created tables. The tables and parameters they contain are named with number ID so that the parameters and GUI can be more easily changed in the future.
