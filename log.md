@@ -1,5 +1,14 @@
 # 100 Days Of Code - Log
 
+### Day 7: January 11, 2017
+
+**Today's Progress**: Changed the GUI so that the robot parameters are entered in / changed / saved via a pop-up window rather than on the main screen as they aren't changed often. I then changed from having the text entry boxes as where I stored the values during run time, as I realised this was dangerous and limiting, to a dictionary.
+
+**Thoughts:** Was interesting finally using a dictionary for a useful purpose after always seeing it demonstrated in python tutorials because before I never really saw it being useful in production.
+
+**Link to work:** [Pass the Butter](https://github.com/robolity/pass-the-butter/commit/a0cc97c867ad1ca23a60346a7e7d7684dfc0216a)
+
+
 ### Day 6: January 10, 2017
 
 **Today's Progress**: Added proximity sensor positions to the robot config parameters and GUI. Added the current control state to the GUI.
