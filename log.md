@@ -1,5 +1,14 @@
 # 100 Days Of Code - Log
 
+### Day 8: January 14, 2017
+
+**Today's Progress**: Finalised the robot parameters pop-up window and saving changes to the text entry boxes to a list of the parameters. Discovered that the avoid obstacles controller wasn't working because it doesn't react to obstacles if it approaches the obstacle's corner.
+
+**Thoughts:** Missed 2 days of coding, and struggling to keep momentum every day. I think to penalise this I'll make it that I have to do catch up days. These will be 1hr+ sessions that complete one of the daily milestones I set. This way hopefully I'll keep the progress on track and keep the challenge alive. Also, realised the way I was using the dictionary was not right for the application as it's more efficient to reference the parameters and tables by an iterable number reference.
+
+**Link to work:** [Pass the Butter](https://github.com/robolity/pass-the-butter/commit/e61d936d461917474515a52c8abac5aa63201855)
+
+
 ### Day 7: January 11, 2017
 
 **Today's Progress**: Changed the GUI so that the robot parameters are entered in / changed / saved via a pop-up window rather than on the main screen as they aren't changed often. I then changed from having the text entry boxes as where I stored the values during run time, as I realised this was dangerous and limiting, to a dictionary.
