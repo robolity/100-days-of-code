@@ -1,5 +1,14 @@
 # 100 Days Of Code - Log
 
+### Day 9: January 15, 2017
+
+**Today's Progress**: Added the control settings for the controllers to the main GUI screen so that these can be quickly changed during simulation to fine tune the motion of the robot.
+
+**Thoughts:** Almost finished with GUI changes, I'll move onto comms to the physical robot prox and encoder sensors later this week.
+
+**Link to work:** [Pass the Butter](https://github.com/robolity/pass-the-butter/commit/23d8ec20e704afe3e9695753927f3ac52039665f)
+
+
 ### Day 8: January 14, 2017
 
 **Today's Progress**: Finalised the robot parameters pop-up window and saving changes to the text entry boxes to a list of the parameters. Discovered that the avoid obstacles controller wasn't working because it doesn't react to obstacles if it approaches the obstacle's corner.
