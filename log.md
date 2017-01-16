@@ -1,5 +1,14 @@
 # 100 Days Of Code - Log
 
+### Day 10: January 16, 2017
+
+**Today's Progress**: Fixed the link between changing the text entry boxes and assigning them to the internal parameter list, as well as applying loaded config parameters to the tect entry boxes. Also, the Apply buttons are greyed out until the text entry boxes are changed.
+
+**Thoughts:** Now I've finished with GUI changes for now, time to work on interfacing the physical robot prox and encoder sensors.
+
+**Link to work:** [Pass the Butter](https://github.com/robolity/pass-the-butter/commit/48ddc35835a67c1385ec8d6d699ca1a468c4dff5)
+
+
 ### Day 9: January 15, 2017
 
 **Today's Progress**: Added the control settings for the controllers to the main GUI screen so that these can be quickly changed during simulation to fine tune the motion of the robot.
