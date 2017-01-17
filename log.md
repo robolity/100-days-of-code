@@ -1,5 +1,14 @@
 # 100 Days Of Code - Log
 
+### Day 11: January 17, 2017
+
+**Today's Progress**: Updated RobotComm class to be a bit more efficient. These changes were from another serial comms project I worked on, and there is still some more integration and testing to be done. Also, I added a world time counter to the GUI.
+
+**Thoughts:** The simulator is sending commands to my physical Zumo robot, but the simulation freezes after about 2.5s, and if I pause it, the simulator catches up. I think the stream of serial send commands are clogging up the processing for the simulator, so I'm going to work on doing this on a need to basis maybe? Not sure what the best approach will be, but that's the kind of learning this project is all about :)
+
+**Link to work:** [Pass the Butter](https://github.com/robolity/pass-the-butter/commit/411ee78a850f58093abc4bc794ed5cc8c6db96fa)
+
+
 ### Day 10: January 16, 2017
 
 **Today's Progress**: Fixed the link between changing the text entry boxes and assigning them to the internal parameter list, as well as applying loaded config parameters to the tect entry boxes. Also, the Apply buttons are greyed out until the text entry boxes are changed.
