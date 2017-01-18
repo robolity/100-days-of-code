@@ -1,5 +1,14 @@
 # 100 Days Of Code - Log
 
+### Day 12: January 18, 2017
+
+**Today's Progress**: Added the function to RobotPhysicalInterface and the Zumo arduino code to request and receive the encoder values. The communication stream is working, but the simulation still freezes and synchronising the serial calls and reads needs a lot of improvement.
+
+**Thoughts:** Nice to start working with my robot again, and mixing hardware with software. I need to work out the most efficient way of reading the encoder values each step, and how to then use them correct the wheel velocities sent to the robot to keep it matching the simulation.
+
+**Link to work:** [Pass the Butter](https://github.com/robolity/pass-the-butter/commit/f11600d6674e3f896a9d10c17559c884d36a2279)
+
+
 ### Day 11: January 17, 2017
 
 **Today's Progress**: Updated RobotComm class to be a bit more efficient. These changes were from another serial comms project I worked on, and there is still some more integration and testing to be done. Also, I added a world time counter to the GUI.
