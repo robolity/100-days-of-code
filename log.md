@@ -1,5 +1,14 @@
 # 100 Days Of Code - Log
 
+### Day 13: January 19, 2017
+
+**Today's Progress**: Modified the Zumo arduino code so that the encoder values are printed to the LCD. I then verified that the encoder readings being split into chars to send via serial are successfully received as char values that when combined match the decimal encoder reading on the robot.
+
+**Thoughts:** The encoder readings recieved by the simulator are one cycle behind  being read by the robot. I need to investigate if there is a way of fixing this.
+
+**Link to work:** [Pass the Butter](https://github.com/robolity/pass-the-butter/commit/f11600d6674e3f896a9d10c17559c884d36a2279)
+
+
 ### Day 12: January 18, 2017
 
 **Today's Progress**: Added the function to RobotPhysicalInterface and the Zumo arduino code to request and receive the encoder values. The communication stream is working, but the simulation still freezes and synchronising the serial calls and reads needs a lot of improvement.
