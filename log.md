@@ -6,7 +6,7 @@
 
 **Thoughts:** The encoder readings recieved by the simulator are one cycle behind  being read by the robot. I need to investigate if there is a way of fixing this.
 
-**Link to work:** [Pass the Butter](https://github.com/robolity/pass-the-butter/commit/f11600d6674e3f896a9d10c17559c884d36a2279)
+**Link to work:** [Pass the Butter](https://github.com/robolity/pass-the-butter/commit/be206e46e0b0845fe1fec858b7f3861a96d4def4)
 
 
 ### Day 12: January 18, 2017
