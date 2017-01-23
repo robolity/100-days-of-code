@@ -1,5 +1,14 @@
 # 100 Days Of Code - Log
 
+### Day 14: January 23, 2017
+
+**Today's Progress**: Now when the robot's step_motion function is called, it compares the estimated encoder reading with the actual encoder reading. The challenge will be to verify if the correct encoder ticks-per-rev value is being used by the simulator and how to correct the simulator to match the actual encoder value measured.
+
+**Thoughts:** I need to find a good way to update the simulator with using the measured encoder tick value of the robot wheels. This will be quite challenging I expect.
+
+**Link to work:** [Pass the Butter](https://github.com/robolity/pass-the-butter/commit/18ba1dc667c3fc903916bf863d3b0359bec3ac79)
+
+
 ### Day 13: January 19, 2017
 
 **Today's Progress**: Modified the Zumo arduino code so that the encoder values are printed to the LCD. I then verified that the encoder readings being split into chars to send via serial are successfully received as char values that when combined match the decimal encoder reading on the robot.
