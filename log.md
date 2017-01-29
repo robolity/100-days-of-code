@@ -1,8 +1,17 @@
 # 100 Days Of Code - Log
 
+### Day 15: January 29, 2017
+
+**Today's Progress:** Changed the supervisor so that it uses the physical robot's encoder readings and tracks the robots pose based on the encoder values.The controller's heading to the goal suddenly goes haywire and the robo is sent in circles. I'm not sure what is causing this, but I suspect it happens when the encoder values takes the robot too far off what would be it's theoretical course.
+
+**Thoughts:** Struggling to keep momentum to program every day (or even more than once a week). Got a few hours done today, though getting stuck on why the heading is lost is a bit demotivating. Will try continue tomorrow.
+
+**Link to work:** [Pass the Butter](https://github.com/robolity/pass-the-butter/commit/20ad75d3f9698fb0737f7b5ef961d23074263f37)
+
+
 ### Day 14: January 23, 2017
 
-**Today's Progress**: Now when the robot's step_motion function is called, it compares the estimated encoder reading with the actual encoder reading. The challenge will be to verify if the correct encoder ticks-per-rev value is being used by the simulator and how to correct the simulator to match the actual encoder value measured.
+**Today's Progress:** Now when the robot's step_motion function is called, it compares the estimated encoder reading with the actual encoder reading. The challenge will be to verify if the correct encoder ticks-per-rev value is being used by the simulator and how to correct the simulator to match the actual encoder value measured.
 
 **Thoughts:** I need to find a good way to update the simulator with using the measured encoder tick value of the robot wheels. This will be quite challenging I expect.
 
@@ -11,7 +20,7 @@
 
 ### Day 13: January 19, 2017
 
-**Today's Progress**: Modified the Zumo arduino code so that the encoder values are printed to the LCD. I then verified that the encoder readings being split into chars to send via serial are successfully received as char values that when combined match the decimal encoder reading on the robot.
+**Today's Progress:** Modified the Zumo arduino code so that the encoder values are printed to the LCD. I then verified that the encoder readings being split into chars to send via serial are successfully received as char values that when combined match the decimal encoder reading on the robot.
 
 **Thoughts:** The encoder readings recieved by the simulator are one cycle behind  being read by the robot. I need to investigate if there is a way of fixing this.
 
