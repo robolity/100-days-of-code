@@ -1,12 +1,21 @@
 # 100 Days Of Code - Log
 
+
+### Day 17: January 31, 2017
+
+**Today's Progress:** Still trying to work out why readign the actual wheel encoder values is sending the controller heading haywire. 
+
+**Thoughts:** Not making much progress now, but maybe this is just a task that will take time.
+
+**Link to work:** [Pass the Butter](https://github.com/robolity/pass-the-butter/commit/1795069b5b060a066ee18bfdd8ed9abaf80a14c9)
+
 ### Day 16: January 30, 2017
 
 **Today's Progress:** Tried to work out why readign the actual wheel encoder values is sending the controller heading haywire. Didn't make much progress, other than setting up the code to simulate the encoder values when the robot is disconnected so as to test the controller.
 
 **Thoughts:** Not sure what's wrong with the controller heading, maybe my code is becoming spagetti code and impossible to debug.....
 
-**Link to work:** [Pass the Butter](https://github.com/robolity/pass-the-butter/commit/20ad75d3f9698fb0737f7b5ef961d23074263f37)
+**Link to work:** [Pass the Butter](https://github.com/robolity/pass-the-butter/commit/2bd13bd55696bcb0cf4d45c4e3e0ac52592ab37e)
 
 
 ### Day 15: January 29, 2017
